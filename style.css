@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+#logo{
+    width: 268px;
+    height:32px ;
+}
+header{
+    display: flex;
+    justify-content:space-around ;
+    top: 0;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border: none 5px white;
+    background-color: white;
+    height: 20px;
+    z-index: 99;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    font-family:Roboto , Arial, sans-serif ;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #ababab;
+    cursor: pointer;
+    position: relative;
+    
+
+}
+.menu-item{
+    padding: 0 10px;
+
+}
+.menu-item-drop{
+    display: none;
+    width: 220px;
+    height:200px ;
+    list-style: none;
+    margin-left: -100px;
+    padding-right:20px ;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ddd;
+
+}
+.menu-item:hover .menu-item-drop {
+    display:flex ;
+    flex-direction: column;
+    color: #ababab; 
+
+}
+.logo1{
+    text-align: center;
+     
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size:34px;
+
+    
+    font-weight: 300;
+    
+    
+    
+  color :  rgb(0, 179, 155) ;
+}
+.logo1 img{
+    width: 40px;
+    height: 40px;
+    padding-top: 100px;
+}
+.menu-item:hover{
+    color: #00B99B;
+
+}
+.parg{
+    display: flex;
+    width: 1000px;
+    height: 112px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    padding-left: 300px;
+}
+
+  
+  .flex-container > div {
+    font-family: Roboto, Arial, sans-serif;
+    
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20.8px;
+    font-size: 16px;}
+   
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+ }
+ 
+  .flex-container > div {
+    
+   height: 345px;
+    width: 270px;
+    margin: 10px;
+    
+    line-height: 20.8px;
+    font-size: 16px;
+    padding: 32px 32px 0 32px;
+    color:white;
+    border-radius:  12px;
+    top: 200px;
+  }
+.patient{
+     background-color: #1ad1b9; 
+  }
+.doctors{
+background-color: #3d83df;
+}
+.clinics{
+background-color: #1b2734;
+}
+.flex-container h1{
+    font-size: 26px;
+}
+.flex-container h2{
+    font-size: 22px;
+    width: 300px;
+    height: 80px;
+    line-height: 28px;
+    font-weight: 300px;
+    font-family:"Work Sans", Arial, sans-serif;
+  
+}
+
+#patient-item{
+    display:none;
+    width: 200px;
+    height: 220px;
+    position:absolute;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 0px 1px #ddd;
+    
+}
+
+
+.choose{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19px;
+  font-weight: 400px;
+  line-height: 24px;
+  padding-top: -50;
+  cursor: pointer;
+}
+.par{
+    display: flex;
+    position: relative;
+}
+.par p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300px;
+    line-height: 33px;
+    color: rgb(0, 179, 155);
+    text-align: left;
+    padding-left: 250px;
+    width: 300px;
+    height: 100px;
+    margin: 7px 0 9px 0;
+}
+.doctor{
+    display: flex;
+    color: #91b6d9; 
+    height: 20px;
+    width: 135px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 50x;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+.doctor img{
+    font-size: 6px;
+    
+    margin-right: 4px;
+    width:20px;
+    height: 20px;
+   
+}
+.doctor{
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 600px;
+}
+
+.item-logo{
+    display: flex;
+    margin-right: 10px;
+}
+
+.bac{
+    height: 600px;
+    background-color:  #e5faf8;
+    width: 1519px;
+    border: solid 0;
+    background-image:url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: 500px;
+    margin-right: 600px;
+    padding: 1.875em 0 .625em; 
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.bac-item1 h2{
+    
+    width: 415px;
+    height: 48px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+
+.bac-item1 p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44px;
+    color: rgb(0, 179, 155);
+    text-align: left;
+    padding-left: 250px;
+    width: 477px;
+    height: 88px;
+    margin: 7px 0 9px 0;
+}
+.bac-item2{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    grid-template-rows:repeat(2,230px) ;
+    gap: 10px;
+    padding-left: 40px;
+    
+    
+}
+.bac-item2 div{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.bac-item2 div img{
+   
+    font-size: 13px;
+    width: 35px;
+    height: 40px;
+
+}
+.colone1{
+    margin-top: 20px;
+}
+.bac-item2 div h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+
+font-size: 24px;
+
+font-weight: 300;
+
+line-height: 31.2px;
+text-align: center;
+width: 100%;
+padding: 0 15px;
+
+color: rgb(0, 179, 155);
+
+}
+.bac-item2 div p{
+    font:400 13px Roboto, Arial, sans-serif;
+
+
+
+line-height: 16.9px;
+
+color: rgb(116, 116, 116);
+
+}
+
+
+.pargraphe p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.3px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+   
+}
+.pargraphe h2{
+    width: 510px;
+    height: 72px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    padding-left: 460px;   
+}
+.pays{
+    padding-left: 200px;
+    padding-top: 50px;
+   
+}
+div.gallery {
+    margin: 10px;
+    
+    
+    float: left;
+    width: 269px;
+   
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+   
+   
+  }
+  
+  div.gallery:hover {
+    border: none white;
+    
+  }
+  
+  div.gallery img {
+    width: 269px;
+    height: 200px;
+    display: grid;
+grid-row-gap:-10px;
+grid-column-gap: 0px;
+  
+  }
+  footer{
+    clear: both;
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgb(116, 116, 116);
+    
+    
+   margin-top: 30px;     
+  }
+  div.nom {
+    font-family:Roboto, Arial, sans-serif ;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    padding-left: 20px;
+    border: solid white;
+    color: rgb(116, 116, 116);
+    height: 30px;
+    display: flex;
+   
+  }
+ input{
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;  
+      font-weight: 700px;
+      background-color: #1662c6;
+      color: white;
+      width: 103px;
+      height: 29px;
+      border-radius: 5px;
+  }
+  .submit{
+    padding-left: 70px;
+    padding-top: 0px;}
+  
+  .all{
+    text-align: center;}
+
+  .all input{
+    width: 210px;
+    height: 40px;
+}
+.item-logo:hover{color:#1ad1b9 ;
+
+}
+.graph p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.3px;
+    clear: both;
+    text-align: center;
+    padding-top: 100px;}
+
+  /*.patient-item{
+    display: flex;
+    list-style:none;
+    font-family:Roboto , Arial, sans-serif ;
+    font-size: 19.2px;
+    font-weight: 400px;
+    line-height: 24.96px;
+    color: #ababab;
+    cursor: pointer;
+    position: relative;}*/
+
+    /*.list-country-item 
+     text-decoration: underline solid rgb(255, 255, 255);
+     white-space: pre;
+     word-spacing: 0px;
+     background-color:#FFFF;
+     background-position: 0% 0%;
+    height: 40px;
+    width: 172.396;
+    padding: 0 38px 0 0;
+    box-shadow: 0px 0px 10px #ddd;}*/
+  
+    /*.patient-item :hover .choose display:flex ;
+        flex-direction: column;
+        color: #ababab; }*/
+        
+        
+        
